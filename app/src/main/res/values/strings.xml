@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">ZADANIA V2</string>
+    <string name="znaleziono">Sukces! Znaleziono w bazie twoje zadanie, kliknij "Pokaż podpowiedź" aby zobaczyć podpowiedź, lub "Pokaż odpowiedź", aby zobaczyć całe rozwiązanie.</string>
+    <string-array name="books">
+        <item>Zbiór zadań do liceów i techników klasa 1</item>
+        <item>Zbiór zadań do liceów i techników klasa 2</item>
+        <item>Zbiór zadań do liceów i techników klasa 3</item>
+    </string-array>
+
+    <string-array name="Rozdziały">
+        <item>Rozdział I</item>
+        <item>Rozdział II</item>
+        <item>Rozdział III</item>
+        <item>Rozdział IV</item>
+    </string-array>
+
+    <string-array name="zadaniaKS1">
+        <item>zadanie 1</item>
+
+    </string-array>
+
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vestibulum pellentesque blandit vehicula. Phasellus egestas urna et placerat placerat.
+        Nullam in mi pharetra, sollicitudin sem rutrum, ultrices magna. Nullam luctus diam massa.
+        Maecenas lobortis orci eget ante ornare, et eleifend justo suscipit.
+        Ut finibus nisi non turpis elementum, eget sollicitudin dui aliquam. Donec ut vehicula velit.
+        Phasellus bibendum at augue quis dictum. Praesent a mauris et metus ultricies ultricies.
+        Suspendisse ullamcorper diam nec nibh tempor euismod.</string>
+
+    <string-array name="zadania"></string-array>
+
+    <string name="rozwiazanie">Rozwiązanie: trzeba policzyć Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vestibulum pellentesque blandit vehicula. Phasellus egestas urna et placerat placerat.
+        Nullam in mi pharetra, sollicitudin sem rutrum, ultrices magna. Nullam luctus diam massa.</string>
+
+    <string-array name="tryby">
+        <item>Książki</item>
+        <item>Minigierki</item>
+        <item>Sciągi</item>
+    </string-array>
+
+    <string-array name="minigierki">
+        <item>Dodawanie na czas</item>
+        <item>Działania na czas</item>
+        <item>Notacja polska</item>
+    </string-array>
+    <string name="title_activity_bug_report">bugReport</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WyubierzRozdzialDoSciag">
+
+    <TextView
+        android:id="@+id/wybor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wybierz rozdział!"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+
+    <Spinner
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/spinner"
+        android:layout_below="@+id/wybor"
+        android:id="@+id/rodzials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Rozdziały" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/rodzials"
+        android:layout_alignBottom="@+id/rodzials"
+        android:layout_below="@+id/wybor"
+        android:src="@drawable/drop" />
+
+
+
+
+    <Button
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rodzials"
+        android:layout_marginTop="10dp"
+        android:onClick="OnClickSearch"
+        android:text="Szukaj!"
+        />
+    <ImageView
+        android:id="@+id/sciaga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search"
+        android:paddingTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/error"
+        android:text=""
+        android:layout_below="@+id/search"
+        />
+
+</RelativeLayout>

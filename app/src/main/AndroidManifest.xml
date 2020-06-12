@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zadaniav1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="PocketMath"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".reportError"></activity>
+        <activity android:name=".autorzy" />
+        <activity android:name=".DzilaniaNaCzas" />
+        <activity android:name=".DodawanieNaCzas" />
+        <activity android:name=".MenuMinigierki" />
+        <activity android:name=".WyubierzRozdzialDoSciag" />
+        <activity android:name=".ListaKsiazekDoSciag" />
+        <activity android:name=".WyborKsiazek" />
+        <activity android:name=".choose" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

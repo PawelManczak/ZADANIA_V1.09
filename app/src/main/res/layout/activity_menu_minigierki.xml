@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:scrollbars="vertical">
+
+
+    <TextView
+        android:id="@+id/wybor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu minigierek:"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+    <ImageView
+        android:layout_below="@id/wybor"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:src="@drawable/dotted"
+        android:layerType="software" />
+
+    <RelativeLayout
+        android:onClick="OnClickDodawanie"
+        android:id="@+id/Dodawanie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wybor"
+        android:layout_marginTop="10dp"
+        android:background = "@drawable/roundedbutton"
+        >
+            <TextView
+                android:id="@+id/Dodawanie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dodawanie na czas"
+                android:padding="10dp"
+                android:textSize="20sp"
+                />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:onClick="OnClickDzialania"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Dzialania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Dodawanie"
+        android:background = "@drawable/roundedbutton"
+        >
+        <TextView
+            android:id="@+id/Dzialaniaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Działania na czas"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:onClick="OnClickDodawanie"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Dzialania1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Dzialania"
+        android:background = "@drawable/roundedbutton"
+        >
+        <TextView
+            android:id="@+id/Dzialaniaa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Działania na czas"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:visibility="invisible"
+        android:id="@+id/gry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wybor"
+        android:layout_marginTop="10dp"
+        android:entries="@array/minigierki">
+    </ListView>
+
+
+</RelativeLayout>
+</ScrollView>
