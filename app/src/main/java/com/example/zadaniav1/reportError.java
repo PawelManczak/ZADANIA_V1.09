@@ -11,6 +11,7 @@ public class reportError extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_report_error);
     }
+    //error jakis
     @Override
     public boolean onSupportNavigateUp(){
         finish();
