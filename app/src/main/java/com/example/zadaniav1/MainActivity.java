@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
         //LINK DO ZMIANY
         Intent intent = new Intent();
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("https://github.com/Matematyczna-aplikacja/APPKA/tree/appka/ZADANIAV3"));
+        intent.setData(Uri.parse("https://github.com/PawelManczak/ZADANIA_V1.09"));
 
         startActivity(intent);
     }

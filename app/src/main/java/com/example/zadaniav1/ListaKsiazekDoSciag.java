@@ -85,11 +85,4 @@ public class ListaKsiazekDoSciag extends AppCompatActivity {
         getMenuInflater().inflate(R.drawable.trzykropek, menu);
         return true;
     }
-    //reportBug
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(ListaKsiazekDoSciag.this, reportError.class);
-        startActivity(intent);
-        return true;
-    }
 }
