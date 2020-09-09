@@ -32,6 +32,7 @@ public class choose extends AppCompatActivity {
 public int jaka;
 public int jdlacalejklasy;
 
+
     public void setJdlacalejklasy(int a)
     {
         jdlacalejklasy=a;
@@ -40,19 +41,13 @@ public int jdlacalejklasy;
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.drawable.trzykropek, menu);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //tytol
         setTitle("Kieszonkowe zadania ( ͡° ͜ʖ ͡°)");
 
         return true;
     }
     //reportBug
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(choose.this, reportError.class);
-        startActivity(intent);
-        return true;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -188,12 +183,13 @@ public int jdlacalejklasy;
 
     }
 
-
+    //cofanie
     @Override
     public boolean onSupportNavigateUp(){
         finish();
         return true;
     }
+
 
 
     }

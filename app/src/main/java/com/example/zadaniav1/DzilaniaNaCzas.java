@@ -29,13 +29,7 @@ public class DzilaniaNaCzas extends AppCompatActivity {
         getMenuInflater().inflate(R.drawable.trzykropek, menu);
         return true;
     }
-    //reportBug
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(DzilaniaNaCzas.this, reportError.class);
-        startActivity(intent);
-        return true;
-    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -26,13 +26,7 @@ public class autorzy extends AppCompatActivity {
         return true;
     }
 
-    //reportBug
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(autorzy.this, reportError.class);
-        startActivity(intent);
-        return true;
-    }
+
 
     //guzik cofajacy do glownego menu
     public void back(View v)

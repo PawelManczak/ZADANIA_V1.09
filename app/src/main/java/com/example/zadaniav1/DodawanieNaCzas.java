@@ -29,13 +29,6 @@ public class DodawanieNaCzas extends AppCompatActivity {
         getMenuInflater().inflate(R.drawable.trzykropek, menu);
         return true;
     }
-    //reportBug
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent(DodawanieNaCzas.this, reportError.class);
-        startActivity(intent);
-        return true;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

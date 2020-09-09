@@ -84,13 +84,7 @@ public class MenuMinigierki extends AppCompatActivity {
         return true;
     }
 
-    //reportBug
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-                Intent intent = new Intent(MenuMinigierki.this, reportError.class);
-                startActivity(intent);
-                return true;
-    }
+
 
     public Context getContext(){
         return context;
