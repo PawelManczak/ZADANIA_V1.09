@@ -79,7 +79,7 @@ public class ListaKsiazekDoSciag extends AppCompatActivity {
         finish();
         return true;
     }
-    //TRZYKROPEK
+    //TRZYKROPEKt
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.drawable.trzykropek, menu);
